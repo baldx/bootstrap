@@ -1,0 +1,44 @@
+:root {
+    --primary-color: #6137A0;
+    --primary-bg-color: #005DC3;
+    --secondary-bg-color: #007AD0;
+    --action-color: #0092CB;
+    --accent-color: #00A7B8;
+    --success-color: #00B8A0;
+}
+
+.btn {
+    color: gray;
+    border: black;
+    font-weight: 700;
+}
+
+.btn:hover {
+    background: var(--success-color);
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-evenly;
+    width: 40%;
+}
+
+.container-fluid .d-flex {
+    width: 60%;
+}
+
+.container-fluid .d-flex input {
+    width: 40%;
+}
+
+button[type="submit"] {
+    background: var(--action-color);
+    color: white;
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+    width: 16%;
+    justify-content: space-between;
+}
